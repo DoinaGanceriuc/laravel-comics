@@ -22,7 +22,7 @@
         </main>
         <!-- /#site_main -->
 
-        <footer id="site_footer"></footer>
+        @include('partials.footer')
         <!-- /#site_footer -->
 
     </body>
