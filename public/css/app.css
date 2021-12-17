@@ -14,6 +14,16 @@ body {
   margin: auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  margin-top: 2rem;
+}
+
 /* Variables */
 /* Header */
 #site_header {
@@ -73,10 +83,76 @@ body {
 /* Main */
 #site_main {
   background-color: #1c1c1c;
+  /* site_main_content */
+  /* cards */
 }
 #site_main .jumbo {
   background-image: url("../img/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
+}
+#site_main .site_main_content {
+  padding-bottom: 2rem;
+  position: relative;
+}
+#site_main .site_main_content .btn-current,
+#site_main .site_main_content .btn {
+  background-color: #0282f9;
+  padding: 0.75rem;
+  text-align: center;
+}
+#site_main .site_main_content .btn-current a,
+#site_main .site_main_content .btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+#site_main .site_main_content .btn {
+  margin: 5rem auto 0;
+  width: 150px;
+}
+#site_main .site_main_content .btn a {
+  font-size: 0.8rem;
+}
+#site_main .site_main_content .btn-current {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200px;
+}
+#site_main .site_main_content .thumb {
+  height: 200px;
+  padding: 1rem;
+}
+#site_main .site_main_content .thumb img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+}
+#site_main .site_main_content .thumb h5 {
+  color: #fff;
+  padding-top: 1rem;
+}
+#site_main p {
+  color: #fff;
+}
+#site_main .cards {
+  background-color: #0282f9;
+  padding: 2rem 0;
+  display: flex;
+}
+#site_main .cards .container .card {
+  display: flex;
+  align-items: center;
+  margin-right: 2.5rem;
+}
+#site_main .cards .container .card img {
+  margin-right: 1rem;
+}
+#site_main .cards .container .card p {
+  font-size: 0.8rem;
 }
