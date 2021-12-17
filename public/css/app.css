@@ -48,6 +48,9 @@ body {
   text-decoration: none;
   color: #1c1c1c;
 }
+#site_header ul li a:hover {
+  color: #0282f9;
+}
 #site_header ul .list_active {
   color: #0282f9;
 }

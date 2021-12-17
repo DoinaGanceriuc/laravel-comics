@@ -19,3 +19,8 @@ Route::get('/', function () {
 
     return view('home', compact('albums'));
 })->name('home');
+
+Route::get('/movies', function () {
+
+    return view('movies');
+})->name('movies');

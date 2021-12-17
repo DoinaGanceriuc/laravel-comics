@@ -13,9 +13,8 @@
         @foreach($albums as $album)
 
         <div class="thumb col-2">
-            <img src="{{ $album['thumb'] }}" alt="">
-            <h5> {{ strtoupper($album['series']) }} </h5>
-
+        <img src="{{ $album['thumb'] }}" alt="">
+         <h5> {{ strtoupper($album['series']) }} </h5>
         </div>
         @endforeach
 
