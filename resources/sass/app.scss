@@ -75,3 +75,14 @@ $color_bg_primary: #1c1c1c;
         }
     }
 }
+/* Main */
+
+#site_main {
+    background-color: $color_bg_primary;
+    .jumbo {
+        background-image: url("../img/jumbotron.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+}

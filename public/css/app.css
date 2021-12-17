@@ -69,3 +69,14 @@ body {
   margin: auto;
   margin-top: 0.3rem;
 }
+
+/* Main */
+#site_main {
+  background-color: #1c1c1c;
+}
+#site_main .jumbo {
+  background-image: url("../img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}

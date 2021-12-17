@@ -17,6 +17,8 @@
         <!-- /#site_header -->
 
         <main id="site_main">
+           @include('partials.jumbotron')
+            @yield('content')
         </main>
         <!-- /#site_main -->
 
