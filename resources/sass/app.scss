@@ -286,7 +286,8 @@ $color_bg_primary: #1c1c1c;
 }
 .specifications {
     background-color: #f6f6f6;
-    border-top: 1px solid #f6f6f6;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
     .row {
         padding: 1rem 0 4rem 0;
     }
@@ -344,6 +345,30 @@ $color_bg_primary: #1c1c1c;
         }
         .date {
             border-bottom: 1px solid #e3e3e3;
+        }
+    }
+}
+.specification_cards {
+    background-color: #f6f6f6;
+
+    .single_album_cards {
+        display: flex;
+        color: #dcdcdc;
+        font-weight: bold;
+        font-size: 0.9rem;
+
+        .card {
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 1.5rem 1rem 1.5rem;
+            border-right: 1px solid #e3e3e3;
+
+            img {
+                filter: contrast(0.5);
+            }
+        }
+        .digital {
+            border-left: 1px solid #e3e3e3;
         }
     }
 }

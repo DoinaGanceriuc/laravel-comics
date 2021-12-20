@@ -282,7 +282,8 @@ img {
 
 .specifications {
   background-color: #f6f6f6;
-  border-top: 1px solid #f6f6f6;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
 }
 .specifications .row {
   padding: 1rem 0 4rem 0;
@@ -332,6 +333,28 @@ img {
 }
 .specifications .specs .date {
   border-bottom: 1px solid #e3e3e3;
+}
+
+.specification_cards {
+  background-color: #f6f6f6;
+}
+.specification_cards .single_album_cards {
+  display: flex;
+  color: #dcdcdc;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.specification_cards .single_album_cards .card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  border-right: 1px solid #e3e3e3;
+}
+.specification_cards .single_album_cards .card img {
+  filter: contrast(0.5);
+}
+.specification_cards .single_album_cards .digital {
+  border-left: 1px solid #e3e3e3;
 }
 
 /* Footer */

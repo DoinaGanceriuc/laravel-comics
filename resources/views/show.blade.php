@@ -134,6 +134,32 @@
 </div>
 <!-- /.specifications -->
 
+<div class="specification_cards">
+    <div class="container">
+                <div class="row single_album_cards">
+            <div class="col-25 card digital">
+                <p>DIGITAL COMICS</p>
+                <img width="50" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="mini card bianca con scritta DC">
+            </div>
+            <div class="col-25 card">
+                <p>SHOP DC</p>
+                <img width="50" src="{{asset('img/buy-comics-subscriptions.png')}}" alt="mini card bianca con simbolo fulmine">
+            </div>
+            <div class="col-25 card">
+                <p>COMIC SHOP LOCATOR</p>
+                <img width="40" src="{{asset('img/buy-comics-shop-locator.png')}}" alt="simbolo della posizione bianco">
+            </div>
+            <div class="col-25 card">
+                <p>SUBSCRIPTIONS</p>
+                 <img width="50" src="{{asset('img/buy-comics-merchandise.png')}}" alt="mini immagine maglietta bianca">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.specification -->
+
+
+
 
 
 @endsection
