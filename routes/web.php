@@ -23,9 +23,13 @@ Route::get('/', function () {
 Route::get('/{id}', function ($id) {
     $albums = config('comics');
 
-    $album = $albums[$id];
-    //ddd($album);
-    return view('show', compact('album'));
+    if (is_numeric($id) && $id >= 0 && $id < count($albums)) {
+        $album = $albums[$id];
+        //ddd($album);
+        return view('show', compact('album'));
+    } else {
+        abort(404);
+    }
 
 })->name('album');
 
