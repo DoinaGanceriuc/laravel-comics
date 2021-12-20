@@ -48,6 +48,10 @@ img {
   text-align: center;
 }
 
+.col-50 {
+  width: 50%;
+}
+
 /* Variables */
 /* Header */
 #site_header {
@@ -274,6 +278,60 @@ img {
   font-size: 0.8rem;
   font-weight: bold;
   padding-bottom: 0.5rem;
+}
+
+.specifications {
+  background-color: #f6f6f6;
+  border-top: 1px solid #f6f6f6;
+}
+.specifications .row {
+  padding: 1rem 0 4rem 0;
+}
+.specifications h3 {
+  color: #003f5e;
+  padding: 1rem 0;
+}
+.specifications .artists,
+.specifications .writters {
+  display: flex;
+  border-top: 1px solid #e3e3e3;
+  padding: 1rem 0;
+}
+.specifications .artists .col-25 p,
+.specifications .writters .col-25 p {
+  color: #003f5e;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.specifications .artists .col-75 p,
+.specifications .writters .col-75 p {
+  color: #00a9d9;
+  font-size: 0.8rem;
+}
+.specifications .writters {
+  border-bottom: 1px solid #e3e3e3;
+}
+.specifications .specs {
+  padding-left: 2rem;
+}
+.specifications .specs .info_specs {
+  display: flex;
+  border-top: 1px solid #e3e3e3;
+  padding: 0.75rem 0;
+  font-size: 0.8rem;
+}
+.specifications .specs .info_specs .col-25 p {
+  color: #003f5e;
+  font-weight: bold;
+}
+.specifications .specs .info_specs .col-75 p {
+  color: #555555;
+}
+.specifications .specs .info_specs .col-75 .series {
+  color: #00a9d9;
+}
+.specifications .specs .date {
+  border-bottom: 1px solid #e3e3e3;
 }
 
 /* Footer */

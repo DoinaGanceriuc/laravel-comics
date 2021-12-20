@@ -40,6 +40,9 @@ img {
 .t_center {
     text-align: center;
 }
+.col-50 {
+    width: 50%;
+}
 /* Variables */
 $color_primary: #0282f9;
 $color_bg_primary: #1c1c1c;
@@ -278,6 +281,69 @@ $color_bg_primary: #1c1c1c;
             font-size: 0.8rem;
             font-weight: bold;
             padding-bottom: 0.5rem;
+        }
+    }
+}
+.specifications {
+    background-color: #f6f6f6;
+    border-top: 1px solid #f6f6f6;
+    .row {
+        padding: 1rem 0 4rem 0;
+    }
+
+    h3 {
+        color: #003f5e;
+        padding: 1rem 0;
+    }
+    .artists,
+    .writters {
+        display: flex;
+        border-top: 1px solid #e3e3e3;
+        padding: 1rem 0;
+
+        .col-25 {
+            p {
+                color: #003f5e;
+                font-weight: bold;
+                font-size: 0.8rem;
+            }
+        }
+        .col-75 {
+            p {
+                color: #00a9d9;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .writters {
+        border-bottom: 1px solid #e3e3e3;
+    }
+    .specs {
+        padding-left: 2rem;
+        .info_specs {
+            display: flex;
+            border-top: 1px solid #e3e3e3;
+            padding: 0.75rem 0;
+            font-size: 0.8rem;
+
+            .col-25 {
+                p {
+                    color: #003f5e;
+                    font-weight: bold;
+                }
+            }
+            .col-75 {
+                p {
+                    color: #555555;
+                }
+                .series {
+                    color: #00a9d9;
+                }
+            }
+        }
+        .date {
+            border-bottom: 1px solid #e3e3e3;
         }
     }
 }
