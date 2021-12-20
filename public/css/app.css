@@ -85,7 +85,6 @@ body {
 
 /* Main */
 #site_main {
-  background-color: #1c1c1c;
   /* site_main_content */
   /* cards */
 }
@@ -96,6 +95,7 @@ body {
   height: 450px;
 }
 #site_main .site_main_content {
+  background-color: #1c1c1c;
   padding-bottom: 2rem;
   position: relative;
 }

@@ -90,7 +90,6 @@ $color_bg_primary: #1c1c1c;
 /* Main */
 
 #site_main {
-    background-color: $color_bg_primary;
     .jumbo {
         background-image: url("../img/jumbotron.jpg");
         background-repeat: no-repeat;
@@ -100,6 +99,7 @@ $color_bg_primary: #1c1c1c;
 
     /* site_main_content */
     .site_main_content {
+        background-color: $color_bg_primary;
         padding-bottom: 2rem;
         position: relative;
 
