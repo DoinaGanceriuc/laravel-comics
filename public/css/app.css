@@ -24,6 +24,15 @@ body {
   margin-top: 2rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* Variables */
 /* Header */
 #site_header {
@@ -161,6 +170,45 @@ body {
 #site_main .cards .container .card p {
   font-size: 0.8rem;
   color: #fff;
+}
+
+.album {
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+.album .type_album,
+.album .view_gallery {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  background-color: #00a9d9;
+  color: #fff;
+  padding: 0.25rem;
+  text-align: center;
+}
+.album .type_album {
+  top: 0;
+}
+.album .view_gallery {
+  bottom: 0;
+  width: 100%;
+}
+.album .view_gallery a {
+  color: #fff;
+}
+
+.bgblue {
+  background-color: #0282f9;
+  height: 80px;
+}
+.bgblue .container {
+  position: relative;
+}
+.bgblue .container .thumb {
+  position: absolute;
+  top: -160px;
+  left: 0;
 }
 
 /* Footer */
