@@ -101,49 +101,51 @@ $color_bg_primary: #1c1c1c;
     .site_main_content {
         background-color: $color_bg_primary;
         padding-bottom: 2rem;
-        position: relative;
+        .container {
+            position: relative;
 
-        .btn-current,
-        .btn {
-            background-color: $color_primary;
-            padding: 0.75rem;
-            text-align: center;
-            & a {
-                text-decoration: none;
-                color: #fff;
-                font-weight: bold;
+            .btn-current,
+            .btn {
+                background-color: $color_primary;
+                padding: 0.75rem;
+                text-align: center;
+                & a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: bold;
+                }
+            }
+            .btn {
+                margin: 5rem auto 0;
+                width: 150px;
+                & a {
+                    font-size: 0.8rem;
+                }
+            }
+            .btn-current {
+                position: absolute;
+                top: -20px;
+                left: 0;
+                width: 200px;
+            }
+            .thumb {
+                height: 200px;
+                padding: 1rem;
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    width: 100%;
+                }
+                h5 {
+                    color: #fff;
+                    padding-top: 1rem;
+                }
             }
         }
-        .btn {
-            margin: 5rem auto 0;
-            width: 150px;
-            & a {
-                font-size: 0.8rem;
-            }
+        p {
+            color: #fff;
         }
-        .btn-current {
-            position: absolute;
-            top: -20px;
-            left: 0;
-            width: 200px;
-        }
-        .thumb {
-            height: 200px;
-            padding: 1rem;
-            img {
-                height: 100%;
-                object-fit: cover;
-                object-position: top;
-                width: 100%;
-            }
-            h5 {
-                color: #fff;
-                padding-top: 1rem;
-            }
-        }
-    }
-    p {
-        color: #fff;
     }
     /* cards */
     .cards {
@@ -161,6 +163,7 @@ $color_bg_primary: #1c1c1c;
                 }
                 & p {
                     font-size: 0.8rem;
+                    color: #fff;
                 }
             }
         }

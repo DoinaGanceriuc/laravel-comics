@@ -4,16 +4,19 @@
 @section('page-title', 'homepage')
 
 @section('content')
-<div class="site_main_content container">
+<div class="site_main_content">
+    <div class="container">
+
+
         <div class="btn-current">
             <a href="#">CURRENT SERIES</a>
         </div>
     <div class="thumbs row">
 
-        @foreach($albums as $album)
+        @foreach($albums as $index => $album)
 
         <div class="thumb col-2">
-            <a href="">
+            <a href="{{ route ('album', ['id' => $index])}}">
                 <img src="{{ $album['thumb'] }}" alt="{{ $album['title'] }}">
                 <h5> {{ strtoupper($album['series']) }} </h5>
             </a>
@@ -27,6 +30,7 @@
         <a href="#">LOAD MORE</a>
     </div>
     <!-- /.btn -->
+        </div>
 </div>
   <!-- /.site_main_content -->
 <div class="cards">

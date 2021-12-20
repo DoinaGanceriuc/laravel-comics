@@ -97,38 +97,40 @@ body {
 #site_main .site_main_content {
   background-color: #1c1c1c;
   padding-bottom: 2rem;
+}
+#site_main .site_main_content .container {
   position: relative;
 }
-#site_main .site_main_content .btn-current,
-#site_main .site_main_content .btn {
+#site_main .site_main_content .container .btn-current,
+#site_main .site_main_content .container .btn {
   background-color: #0282f9;
   padding: 0.75rem;
   text-align: center;
 }
-#site_main .site_main_content .btn-current a,
-#site_main .site_main_content .btn a {
+#site_main .site_main_content .container .btn-current a,
+#site_main .site_main_content .container .btn a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
-#site_main .site_main_content .btn {
+#site_main .site_main_content .container .btn {
   margin: 5rem auto 0;
   width: 150px;
 }
-#site_main .site_main_content .btn a {
+#site_main .site_main_content .container .btn a {
   font-size: 0.8rem;
 }
-#site_main .site_main_content .btn-current {
+#site_main .site_main_content .container .btn-current {
   position: absolute;
   top: -20px;
   left: 0;
   width: 200px;
 }
-#site_main .site_main_content .thumb {
+#site_main .site_main_content .container .thumb {
   height: 200px;
   padding: 1rem;
 }
-#site_main .site_main_content .thumb img {
+#site_main .site_main_content .container .thumb img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -136,11 +138,11 @@ body {
      object-position: top;
   width: 100%;
 }
-#site_main .site_main_content .thumb h5 {
+#site_main .site_main_content .container .thumb h5 {
   color: #fff;
   padding-top: 1rem;
 }
-#site_main p {
+#site_main .site_main_content p {
   color: #fff;
 }
 #site_main .cards {
@@ -158,6 +160,7 @@ body {
 }
 #site_main .cards .container .card p {
   font-size: 0.8rem;
+  color: #fff;
 }
 
 /* Footer */
